@@ -12,7 +12,7 @@ export default function SignInPage() {
       email,
       password,
       redirect: true,
-      callbackUrl: "/private/dashboard",
+      callbackUrl: "/private/home",
     });
   };
 

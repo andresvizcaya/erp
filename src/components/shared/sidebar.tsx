@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-export default function LayoutWithSidebar({ children }: { children: React.ReactNode }) {
+export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
@@ -19,15 +19,15 @@ export default function LayoutWithSidebar({ children }: { children: React.ReactN
               <Link href="/private/dashboard" className="block px-3 py-2 hover:bg-blue-900 rounded">
                 Dashboard
               </Link>
-              <Link href="/private/purchases" className="block px-3 py-2 hover:bg-blue-900 rounded">
+              <Link href="" className="block px-3 py-2 hover:bg-blue-900 rounded">
                 Compras
               </Link>
-              <Link href="/private/reports" className="block px-3 py-2 hover:bg-blue-900 rounded">
+              <Link href="" className="block px-3 py-2 hover:bg-blue-900 rounded">
                 Reportes
               </Link>
             </div>
             <div>
-              <Link href="/private/users" className="block px-3 py-2 hover:bg-blue-900 rounded">
+              <Link href="" className="block px-3 py-2 hover:bg-blue-900 rounded">
                 Usuarios
               </Link>
             </div>
